@@ -1,7 +1,8 @@
 [
 {
-  "directory": "/home/lxl/PbcBendmarkingCmake/build",
-  "command": "/usr/bin/g++ -I/home/lxl/PbcBendmarkingCmake/include  -g -g -std=gnu++20 -o CMakeFiles/PbcBendmarkingCmake.dir/main.cpp.o -c /home/lxl/PbcBendmarkingCmake/main.cpp",
-  "file": "/home/lxl/PbcBendmarkingCmake/main.cpp"
+  "directory": "/home/ubuntuserver24/projects/PbcBendmarkingCmake/build",
+  "command": "/usr/bin/g++  -I/home/ubuntuserver24/projects/PbcBendmarkingCmake/include  -g -g -std=gnu++20 -o CMakeFiles/PbcBendmarkingCmake.dir/main.cpp.o -c /home/ubuntuserver24/projects/PbcBendmarkingCmake/main.cpp",
+  "file": "/home/ubuntuserver24/projects/PbcBendmarkingCmake/main.cpp",
+  "output": "CMakeFiles/PbcBendmarkingCmake.dir/main.cpp.o"
 }
 ]

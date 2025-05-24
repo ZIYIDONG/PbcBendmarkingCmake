@@ -6,10 +6,11 @@
 #include <iostream>
 #define renum 10000
 # define SHA256_DIGEST_LENGTH 32
+
 void id_to_zr(pairing_t pairing, const char *id, element_t &upk) {
     // 生成SHA-256哈希
     unsigned char digest[SHA256_DIGEST_LENGTH];
-    //SHA256((unsigned char*)id, strlen(id), digest);
+    SHA256((unsigned char*)id, strlen(id), digest);
 
     // 从哈希值加载元素
     element_from_hash(upk, digest, SHA256_DIGEST_LENGTH);

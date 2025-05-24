@@ -1,4 +1,4 @@
-# Install script for directory: /home/lxl/PbcBendmarkingCmake
+# Install script for directory: /home/ubuntuserver24/projects/PbcBendmarkingCmake
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/lxl/PbcBendmarkingCmake/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ubuntuserver24/projects/PbcBendmarkingCmake/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

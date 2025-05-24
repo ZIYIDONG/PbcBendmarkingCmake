@@ -23,8 +23,10 @@ target_link_directories(PbcBendmarkingCmake PRIVATE ${LINK_DIR})
 
 # 链接库
 target_link_libraries(PbcBendmarkingCmake PRIVATE
-        libpbc.a
-        libgmp.a
+        pbc
+        gmp
+        crypto
+        ssl
 )
 
 #生成调试信息

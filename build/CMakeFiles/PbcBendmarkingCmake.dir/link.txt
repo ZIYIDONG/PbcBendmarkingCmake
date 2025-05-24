@@ -1,1 +1,1 @@
-/usr/bin/g++  -g -g CMakeFiles/PbcBendmarkingCmake.dir/main.cpp.o -o PbcBendmarkingCmake   -L/home/lxl/PbcBendmarkingCmake/lib  -Wl,-rpath,/home/lxl/PbcBendmarkingCmake/lib -Wl,-Bstatic -lpbc -lgmp -Wl,-Bdynamic 
+/usr/bin/g++  -g -g CMakeFiles/PbcBendmarkingCmake.dir/main.cpp.o -o PbcBendmarkingCmake   -L/home/ubuntuserver24/projects/PbcBendmarkingCmake/lib  -Wl,-rpath,/home/ubuntuserver24/projects/PbcBendmarkingCmake/lib -lpbc -lgmp -lcrypto -lssl 
